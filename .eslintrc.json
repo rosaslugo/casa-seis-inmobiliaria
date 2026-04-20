@@ -1,0 +1,13 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["./tools/eslint-plugin-design-tokens"],
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "design-tokens/no-raw-color-classes":           "error",
+    "design-tokens/no-interactive-accent":          "error",
+    "design-tokens/no-raw-style-hex":               "error",
+    "design-tokens/no-dynamic-color-interpolation": "error",
+    "design-tokens/no-raw-icon-color":              "warn",
+    "design-tokens/no-unsafe-cn-spread":            "warn"
+  }
+}
