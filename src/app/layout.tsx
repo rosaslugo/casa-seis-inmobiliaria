@@ -41,12 +41,34 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: {
-    default: 'Casa Seis Inmobiliaria — Propiedades en México',
-    template: '%s | Casa Seis Inmobiliaria',
+    default: 'Casa Seis Inmobiliaria — Casas y Propiedades en Los Mochis, Sinaloa',
+    template: '%s | Casa Seis Inmobiliaria Los Mochis',
   },
   description:
-    'Encuentra tu propiedad ideal en México. Casas, departamentos y terrenos en venta y renta. Casa Seis Inmobiliaria — elegancia y confianza.',
-  keywords: ['inmobiliaria', 'propiedades', 'casas en venta', 'departamentos', 'renta', 'México'],
+    'Inmobiliaria en Los Mochis, Sinaloa. Casas, departamentos y terrenos en venta y renta. Asesoría personalizada sin costo. Llámanos al +52 668 116 3380.',
+  keywords: [
+    // Búsquedas locales principales
+    'inmobiliaria Los Mochis',
+    'casas en venta Los Mochis',
+    'casas en renta Los Mochis',
+    'departamentos en venta Los Mochis',
+    'departamentos en renta Los Mochis',
+    'propiedades Los Mochis Sinaloa',
+    // Marca
+    'Casa Seis Inmobiliaria',
+    'Casa Seis Los Mochis',
+    // Variantes regionales
+    'inmobiliaria Sinaloa',
+    'bienes raíces Los Mochis',
+    'bienes raíces Sinaloa',
+    'casas Los Mochis',
+    'terrenos en venta Los Mochis',
+    // Intención de compra/renta
+    'comprar casa Los Mochis',
+    'rentar casa Los Mochis',
+    'vender propiedad Los Mochis',
+    'valuación de propiedades Los Mochis',
+  ],
   authors: [{ name: 'Casa Seis Inmobiliaria' }],
   creator: 'Casa Seis Inmobiliaria',
   publisher: 'Casa Seis Inmobiliaria',
@@ -71,8 +93,8 @@ export const metadata: Metadata = {
     locale: 'es_MX',
     url: getSiteUrl(),
     siteName: 'Casa Seis Inmobiliaria',
-    title: 'Casa Seis Inmobiliaria — Propiedades en México',
-    description: 'Encuentra tu propiedad ideal. Casas, departamentos y terrenos en venta y renta.',
+    title: 'Casa Seis Inmobiliaria — Casas y Propiedades en Los Mochis, Sinaloa',
+    description: 'Casas, departamentos y terrenos en venta y renta en Los Mochis, Sinaloa. Asesoría personalizada sin costo. ¡Contáctanos hoy!',
     images: [
       {
         url: '/og-image.jpg',
@@ -85,7 +107,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Casa Seis Inmobiliaria',
-    description: 'Propiedades en venta y renta en México.',
+    description: 'Casas y propiedades en venta y renta en Los Mochis, Sinaloa. ¡Contáctanos!',
     images: ['/og-image.jpg'],
   },
 }
